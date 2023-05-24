@@ -4,6 +4,7 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
+      - export NODE_OPTIONS=--openssl-legacy-provider
       - npm install
   build:
     commands:
